@@ -1,0 +1,55 @@
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 50px;
+}
+
+@media screen and (min-width: 40em) {
+    #title {
+    padding-top: 2%;  
+    padding-bottom: 5%;
+    font-size: 60px
+    }
+}
+
+img {
+    padding-top: 1%;
+}
+
+#weather {
+    padding-top: 4%;
+}
+
+#city {
+    padding-top: 5%;
+}
+
+
+#temperature {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 70px;
+
+}
+
+@media screen and (max-width: 39.9375em) {
+    #title {
+        font-weight: bold;
+        font-size: 35px
+        
+    }
+    #temperature {
+        font-size: 60px;
+    }
+}
+
+#icon {
+    background-color: #1779ba;
+}
+canvas {
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  
+   
+}
