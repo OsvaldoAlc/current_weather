@@ -22,13 +22,13 @@ $(document).ready(function(){
 
           //$("#icon").html(icon);
           $("#weather").html(weatherType);
-          $("#temperature").html(temperature + " &#8457;");
+          $("#temperature").html(celsius + " &#8451;");
           $("#temperature").click(function(){
               if(changeTemp === false) {
-                  $("#temperature").html(temperature + " &#8457;");
+                  $("#temperature").html(celsius + " &#8451;");
                   changeTemp=true;
               } else{
-                  $("#temperature").html(celsius + " &#8451;");
+                  $("#temperature").html(temperature + " &#8457;");
                   changeTemp=false;
               }
           });
