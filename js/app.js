@@ -9,7 +9,7 @@ $(document).ready(function(){
   navigator.geolocation.getCurrentPosition(function(position) {
       latitude = position.coords.latitude;
       longitude =  position.coords.longitude;
-      var api = "https://crossorigin.me/https://api.darksky.net/forecast/"+key+"/"+latitude+","+longitude;
+      var api = "https://cors-anywhere.herokuapp.com/https://api.darksky.net/forecast/"+key+"/"+latitude+","+longitude;
 
       $.getJSON(api, function(data){
           var icon = data.currently.icon;
